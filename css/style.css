@@ -12,3 +12,9 @@ body{
 nav li{
     display: inline;
 }
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
