@@ -1,10 +1,14 @@
 body{
-    background-image: url(/images/background.jpg);
+    background-image: url(/images/background_dark.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.wrapper{
-    
+.wrapper li{
+    color: white;
+    list-style-type: none;
+}
+nav li{
+    display: inline;
 }
