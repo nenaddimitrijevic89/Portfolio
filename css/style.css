@@ -22,3 +22,9 @@ body{
     font-size: 24px;
     margin-bottom: 0px;
 }
+.visibile{
+    display: block;
+}
+.hidden{
+    display: none;
+}
