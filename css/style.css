@@ -28,3 +28,11 @@ body{
 .hidden{
     display: none;
 }
+.menu{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.menu i{
+    position: absolute;
+}
