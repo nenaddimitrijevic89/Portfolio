@@ -5,16 +5,20 @@ body{
     background-attachment: fixed;
 }
 
-.wrapper li{
-    color: white;
-    list-style-type: none;
-}
-nav li{
-    display: inline;
-}
-
 .navbar{
     display: flex;
     justify-content: flex-end;
     color: white;
+}
+
+.navbar li{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding-right: 15px;
+}
+
+.navbar ul{
+    font-size: 24px;
+    margin-bottom: 0px;
 }
