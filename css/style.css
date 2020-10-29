@@ -22,17 +22,21 @@ body{
     font-size: 24px;
     margin-bottom: 0px;
 }
-.visible{
-    display: block;
-}
-.hidden{
+
+.inactive{
     display: none;
 }
+
+.hidden{
+    visibility: hidden;
+}
+
 .menu{
     position: relative;
     width: 30px;
     height: 30px;
 }
+
 .menu>i{
     position: absolute;
     right: 15px;
