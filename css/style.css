@@ -25,15 +25,8 @@ body{
     padding-right: 15px;
 }
 
-.menu{
-    position: relative;
-    width: 30px;
-    height: 30px;
-}
-
-.menu>i{
-    position: absolute;
-    right: 15px;
+#menu>i:hover{
+    cursor: pointer;
 }
 
 .inactive{
@@ -55,6 +48,12 @@ body{
     height: auto;
 }
 
-.main__profile_avatar{
-    width: 100%;
+.main__profile_img{
+    width: 250px;
+    height: 250px;
+    border-radius: 1000px;
+    border: 6px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    background-color: white;
+    object-fit: cover;    
 }
