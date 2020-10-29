@@ -5,17 +5,12 @@ body{
     background-attachment: fixed;
 }
 
+/* navbar */
+
 .navbar{
     display: flex;
     justify-content: flex-end;
     color: white;
-}
-
-.navbar li{
-    color: white;
-    list-style-type: none;
-    display: inline;
-    padding-right: 15px;
 }
 
 .navbar ul{
@@ -23,12 +18,11 @@ body{
     margin-bottom: 0px;
 }
 
-.inactive{
-    display: none;
-}
-
-.hidden{
-    visibility: hidden;
+.navbar li{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding-right: 15px;
 }
 
 .menu{
@@ -40,4 +34,27 @@ body{
 .menu>i{
     position: absolute;
     right: 15px;
+}
+
+.inactive{
+    display: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+/* main */
+
+.main{
+    color: white;
+}
+
+.main__profile{
+    width: 300px;
+    height: auto;
+}
+
+.main__profile_avatar{
+    width: 100%;
 }
