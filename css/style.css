@@ -1,59 +1,61 @@
-body{
+body {
     background-image: url(/images/background_dark.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+
 /* navbar */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: flex-end;
     color: white;
 }
 
-.navbar ul{
+.navbar ul {
     font-size: 24px;
     margin-bottom: 0px;
 }
 
-.navbar li{
+.navbar li {
     color: white;
     list-style-type: none;
     display: inline;
     padding-right: 15px;
 }
 
-#menu>i:hover{
+#menu>i:hover {
     cursor: pointer;
 }
 
-.inactive{
+.inactive {
     display: none;
 }
 
-.hidden{
+.hidden {
     visibility: hidden;
 }
 
+
 /* main */
 
-.main{
+.main {
     color: white;
 }
 
-.main__profile{
+.main__profile {
     width: 300px;
     height: auto;
 }
 
-.main__profile_img{
+.main__profile_img {
     width: 250px;
     height: 250px;
     border-radius: 1000px;
     border: 6px solid #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
     background-color: white;
-    object-fit: cover;    
+    object-fit: cover;
 }
