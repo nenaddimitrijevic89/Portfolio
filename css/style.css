@@ -27,8 +27,17 @@ body {
     padding-right: 15px;
 }
 
+#menu>i{
+    overflow: hidden;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
 #menu>i:hover {
     cursor: pointer;
+    color: #d9a618;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 
 .inactive {
