@@ -1,8 +1,9 @@
 body {
-    background-image: url(/images/background_dark.jpg);
+    /* background-image: url(/images/background_dark.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #181818;
 }
 
 
