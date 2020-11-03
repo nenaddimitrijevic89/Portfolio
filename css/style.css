@@ -75,23 +75,27 @@ body {
     background-color: white;
 }
 
+.one ~ hr {
+    width: 24%;
+}
+
+.two ~ hr {
+    width: 28%;
+}
+
 .two:hover ~ hr {
-    margin-left: 25%;
-  }
+    margin-left: 31%;
+}
   
-  .three:hover ~ hr {
-    margin-left: 50%;
-  }
+.three:hover ~ hr {
+    margin-left: 67%;
+}
   
-  /* .four:hover ~ hr {
-    margin-left: 75%;
-  } */
-  
-  hr {
+hr {
     height: .25rem;
-    width: 25%;
+    width: 28%;
     margin: 0;
     background: tomato;
     border: none;
     transition: .3s ease-in-out;
-  }
+}
