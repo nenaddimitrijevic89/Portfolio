@@ -72,8 +72,15 @@ body {
 }
 
 .about{
-    color: white;
+    padding: 50px 0px;
+    color: #181818;
 }
+
+.about:hover{
+    background-color: white;
+    transition: .7s ease-in-out;
+}
+
 .one:hover ~ hr{
     visibility: visible;
 }
