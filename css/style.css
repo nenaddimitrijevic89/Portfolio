@@ -75,20 +75,27 @@ body {
     background-color: white;
 }
 
+.one:hover ~ hr{
+    visibility: visible;
+}
+
 .two:hover ~ hr {
     margin-left: 30%;
     width: 30%;
+    visibility: visible;
 }
   
 .three:hover ~ hr {
     margin-left: 66%;
     width: 30%;
+    visibility: visible;
 }
   
 hr {
     height: .25rem;
     width: 24%;
     margin: 0;
+    visibility: hidden;
     background: tomato;
     border: none;
     transition: .3s ease-in-out;
