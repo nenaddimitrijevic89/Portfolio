@@ -71,10 +71,9 @@ body {
     object-fit: cover;
 }
 
-.about {
-    background-color: white;
+.about{
+    color: white;
 }
-
 .one:hover ~ hr{
     visibility: visible;
 }
