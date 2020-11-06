@@ -9,7 +9,13 @@ body {
 
 
 /* navbar */
-
+li>a:hover{
+    text-decoration: none;
+    color: white;
+}
+li>a{
+    color: white;
+}
 nav{
     position: fixed;
     width: 100%;
@@ -64,6 +70,7 @@ nav{
 
 .main {
     color: white;
+    margin-bottom: 20px;
 }
 
 .main__profile {
