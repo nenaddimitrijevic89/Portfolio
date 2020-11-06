@@ -1,26 +1,17 @@
 body {
-    /* background-image: url(/images/background_dark.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     background-color: #181818;
     position: relative;
+    font-family: 'Turret Road', cursive;
 }
-
 
 /* navbar */
-li>a:hover{
-    text-decoration: none;
-    color: white;
-}
-li>a{
-    color: white;
-}
+
 nav{
     position: fixed;
     width: 100%;
     z-index: 1;
 }
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -42,6 +33,15 @@ nav{
     display: inline;
     text-align: center;
     padding-right: 15px;
+}
+
+li>a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+li>a{
+    color: white;
 }
 
 #menu>i{
@@ -74,13 +74,13 @@ nav{
 }
 
 .main__profile {
-    width: 300px;
-    height: auto;
+    padding-top: 70px;
+   
 }
 
 .main__profile_img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 1000px;
     object-fit: cover;
 }
@@ -156,4 +156,35 @@ hr {
 .projects:hover{
     background-color: white;
     transition: 1s ease-in-out;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .navbar{
+        padding-right: 25px;
+    }
+    .main{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 433px) {
+    .navbar ul{
+        font-size: 18px;
+    }
+
+    .main__profile_img{
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width: 363px) {
+    .navbar ul{
+        font-size: 16px;
+    }
+    #menu, #menuList{
+        padding-left: 20px;
+    }
 }
