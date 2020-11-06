@@ -4,6 +4,7 @@ $('#menu').click(() => {
     $('#menuList').toggleClass('hidden').hide().fadeIn(800);
 })
 
+
 Array.prototype.myMap=function(call){
     const newArr=[];
     for(let i=0; i<this.length; i++){
@@ -17,7 +18,7 @@ Array.prototype.myFilter=function(call){
     const newArr=[]
     for(let i=0; i<this.length; i++){
         if(call(this[i])){
-            newArr.push(this[i])
+            newArr.push(this[i], i, this)
         }
     }
     return newArr;

@@ -20,6 +20,10 @@ body {
     margin-bottom: 0px;
 }
 
+.navbar ul:hover{
+    cursor: pointer;
+}
+
 .navbar li {
     color: white;
     list-style-type: none;
