@@ -4,11 +4,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; */
     background-color: #181818;
+    position: relative;
 }
 
 
 /* navbar */
 
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -93,6 +99,7 @@ body {
 .about:hover{
     background-color: white;
     transition: 1s ease-in-out;
+    z-index: 2;
 }
 
 .one:hover ~ hr{
