@@ -19,7 +19,7 @@ nav{
 }
 
 .navbar ul {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 0px;
 }
 
@@ -164,12 +164,15 @@ hr {
     .navbar{
         padding-right: 25px;
     }
+    .navbar ul{
+        font-size: 24px;
+    }
     .main{
         text-align: center;
     }
 }
 
-@media only screen and (max-width: 433px) {
+@media only screen and (max-width: 434px) {
     .navbar ul{
         font-size: 18px;
     }
