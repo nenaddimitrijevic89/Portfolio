@@ -212,7 +212,7 @@ hr {
         padding-left: 20px;
     }
     .two:hover ~ hr {
-        width: 28%;
+        width: 28.5%;
     }
     .three:hover ~ hr {
         width: 28%;
