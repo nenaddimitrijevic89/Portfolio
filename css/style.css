@@ -114,8 +114,8 @@ li>a{
 }
 
 .two:hover ~ hr {
-    margin-left: 30%;
-    width: 30%;
+    margin-left: 29%;
+    width: 31%;
     visibility: visible;
 }
   
@@ -127,7 +127,7 @@ li>a{
   
 hr {
     height: .25rem;
-    width: 24%;
+    width: 22%;
     margin: 0;
     visibility: hidden;
     background: tomato;
@@ -179,6 +179,12 @@ hr {
     .main, .about, .projects{
         text-align: center;
     }
+    hr{
+        width: 21%;
+    }
+    .two:hover ~ hr {
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width: 434px) {
@@ -190,6 +196,12 @@ hr {
         width: 270px;
         height: 270px;
     }
+    hr{
+        width: 20%;
+    }
+    .two:hover ~ hr {
+        width: 29%;
+    }
 }
 
 @media only screen and (max-width: 363px) {
@@ -198,5 +210,11 @@ hr {
     }
     #menu, #menuList{
         padding-left: 20px;
+    }
+    .two:hover ~ hr {
+        width: 28%;
+    }
+    .three:hover ~ hr {
+        width: 28%;
     }
 }
