@@ -142,6 +142,15 @@ hr {
     color: #181818;
     position: relative;
 }
+
+.project>a{
+    color: #181818;
+}
+
+.project{
+    margin-bottom: 20px;
+}
+
 .projects__absolute{
     position: absolute;
     color: white;
