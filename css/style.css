@@ -72,6 +72,10 @@ li>a{
     color: white;
     margin-bottom: 20px;
 }
+.bold{
+    font-weight: bold;
+    color: #d9a618;
+}
 
 .main__profile {
     padding-top: 70px;
@@ -104,9 +108,10 @@ li>a{
 }
 
 .about:hover{
-    background-color: white;
+    background-color: #181818;
     transition: 1s ease-in-out;
     z-index: 2;
+    color: #d9a618;
 }
 
 .one:hover ~ hr{
@@ -130,7 +135,7 @@ hr {
     width: 22%;
     margin: 0;
     visibility: hidden;
-    background: tomato;
+    background: #d9a618;
     border: none;
     transition: .3s ease-in-out;
 }
