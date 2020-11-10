@@ -114,7 +114,7 @@ li>a{
 }
 
 .two:hover ~ hr {
-    margin-left: 29%;
+    margin-left: 28.5%;
     width: 31%;
     visibility: visible;
 }
