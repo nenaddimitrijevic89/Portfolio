@@ -4,6 +4,15 @@ $('#menu').click(() => {
   $('#menuList').toggleClass('hidden').hide().fadeIn(800);
 })
 
+$('.project').hover(
+  function () {
+    $(this).find('h5').removeClass('inactive')
+  },
+  function () {
+    $(this).find("h5").addClass('inactive')
+  }
+)
+
 let a = [1, 2, 3, 4, 5, 6, 9, 10],
   count = 10,
   missing = [];

@@ -172,6 +172,29 @@ hr {
     transition: 1s ease-in-out;
 }
 
+.contact{
+    padding: 50px 0px;
+    color: #181818;
+    position: relative;
+}
+.contact__absolute{
+    position: absolute;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+.contact:hover:hover .contact__absolute{
+    display: none;
+    transition: 1s ease-in-out;
+}
+
+.contact:hover{
+    background-color: #181818;
+    transition: 1s ease-in-out;
+    z-index: 2;
+    color: #d9a618;
+}
+
 
 
 @media only screen and (max-width: 575px) {
