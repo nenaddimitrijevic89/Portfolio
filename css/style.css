@@ -148,12 +148,16 @@ hr {
     position: relative;
 }
 
-.project>a{
-    color: #181818;
-}
 
 .project{
     margin-bottom: 20px;
+}
+
+.project>a{
+    color: #181818;
+}
+.project>h5{
+    color: #d9a618;
 }
 
 .projects__absolute{

@@ -6,10 +6,10 @@ $('#menu').click(() => {
 
 $('.project').hover(
   function () {
-    $(this).find('h5').removeClass('inactive')
+    $(this).find('h5').removeClass('inactive').hide().fadeIn(800)
   },
   function () {
-    $(this).find("h5").addClass('inactive')
+    $(this).find("h5").fadeOut(800)
   }
 )
 
