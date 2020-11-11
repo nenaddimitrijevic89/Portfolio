@@ -6,21 +6,9 @@ $('#menu').click(() => {
 
 $('.project').hover(
   function () {
-    $(this).find('h5').removeClass('inactive').hide().fadeIn(800)
+    $(this).find('h5').removeClass('inactive').addClass('absolute')
   },
   function () {
-    $(this).find("h5").fadeOut(800)
+    $(this).find("h5").addClass('inactive').removeClass('absolute')
   }
 )
-
-let a = [1, 2, 3, 4, 5, 6, 9, 10],
-  count = 10,
-  missing = [];
-
-for (let i = 1; i <= count; i++) {
-  if (a.indexOf(i) == -1) {
-    missing.push(i);
-  }
-}
-
-console.log(missing)

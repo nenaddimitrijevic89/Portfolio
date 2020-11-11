@@ -65,7 +65,6 @@ li>a{
     visibility: hidden;
 }
 
-
 /* main */
 
 .main {
@@ -148,16 +147,21 @@ hr {
     position: relative;
 }
 
-
 .project{
     margin-bottom: 20px;
+    position: relative;
 }
 
-.project>a{
+.project>a, .project>h5{
     color: #181818;
 }
-.project>h5{
-    color: #d9a618;
+.absolute{
+    position: absolute;
+    background-color: #d9a618;
+    font-weight: bold;
+    z-index: 2;
+    padding: 0px 10px 10px 10px;
+    transition: 1s ease-in-out;
 }
 
 .projects__absolute{
@@ -172,7 +176,7 @@ hr {
 }
 
 .projects:hover{
-    background-color: white;
+    background-color: #d9a618;
     transition: 1s ease-in-out;
 }
 
