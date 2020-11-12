@@ -162,9 +162,6 @@ hr {
     z-index: 2;
     padding: 0px 10px 10px 10px;
 }
-.absolute:hover{
-    transition: 1s ease-in-out;
-}
 
 .projects__absolute{
     position: absolute;
@@ -174,12 +171,12 @@ hr {
 }
 .projects:hover .projects__absolute{
     display: none;
-    /* transition: 1s ease-in-out; */
+    transition: 1s ease-in-out;
 }
 
 .projects:hover{
     background-color: #d9a618;
-    /* transition: 1s ease-in-out; */
+    transition: 1s ease-in-out;
 }
 
 /* contact */

@@ -6,9 +6,9 @@ $('#menu').click(() => {
 
 $('.project').hover(
   function () {
-    $(this).find('h5').removeClass('inactive').addClass('absolute')
+    $(this).find('h5').removeClass('inactive').addClass('absolute').hide().fadeIn(400)
   },
   function () {
-    $(this).find("h5").addClass('inactive').removeClass('absolute')
+    $(this).find("h5").addClass('inactive').removeClass('absolute').fadeOut()
   }
 )
