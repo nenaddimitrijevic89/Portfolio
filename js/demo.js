@@ -9,6 +9,6 @@ $('.project').hover(
     $(this).find('h5').removeClass('inactive').addClass('absolute').hide().fadeIn(400)
   },
   function () {
-    $(this).find("h5").addClass('inactive').removeClass('absolute').fadeOut()
+    $(this).find("h5").removeClass('absolute').hide().addClass('inactive')
   }
 )
