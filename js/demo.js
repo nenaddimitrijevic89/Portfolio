@@ -9,6 +9,11 @@ $('.project').hover(
     $(this).find('h5').removeClass('inactive').addClass('absolute').hide().fadeIn(400)
   },
   function () {
-    $(this).find("h5").removeClass('absolute').hide().addClass('inactive')
+    $(this).find("h5").hide().removeClass('absolute').addClass('inactive')
   }
 )
+
+if(!!false)
+console.log("a")
+// console.log("b")
+// console.log("c")
