@@ -12,8 +12,3 @@ $('.project').hover(
     $(this).find("h5").hide().removeClass('absolute').addClass('inactive')
   }
 )
-
-if(!!false)
-console.log("a")
-// console.log("b")
-// console.log("c")

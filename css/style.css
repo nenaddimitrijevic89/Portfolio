@@ -88,6 +88,10 @@ li>a{
     object-fit: cover;
 }
 
+.tech{
+    width: 50px;
+}
+
 /* about */
 
 .about{
