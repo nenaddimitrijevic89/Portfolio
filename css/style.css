@@ -88,8 +88,15 @@ li>a{
     object-fit: cover;
 }
 
-.tech{
+.logo{
+    margin: 15px 0px;
+}
+.logo>img{
     width: 50px;
+}
+.tech{
+    padding-top: 70px;
+    background-color: white;
 }
 
 /* about */
