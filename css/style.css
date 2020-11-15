@@ -91,12 +91,27 @@ li>a{
 .logo{
     margin: 15px 0px;
 }
-.logo>img{
+
+.logo img{
     width: 50px;
 }
+
+.circle{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #d9a618;
+}
+
 .tech{
     padding-top: 70px;
-    background-color: white;
+    align-items: center;
+    text-align: center;
 }
 
 /* about */
@@ -182,12 +197,10 @@ hr {
 }
 .projects:hover .projects__absolute{
     display: none;
-    /* transition: 0.2s ease-in-out; */
 }
 
 .projects:hover{
     background-color: #d9a618;
-    /* transition: 0.2s ease-in-out; */
 }
 
 /* contact */
