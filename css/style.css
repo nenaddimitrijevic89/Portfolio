@@ -178,7 +178,7 @@ hr {
     position: relative;
 }
 
-.project>a, .project>h5{
+.project>a, .project>h5, span{
     color: #181818;
 }
 .absolute{
