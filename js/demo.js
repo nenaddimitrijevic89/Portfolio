@@ -13,3 +13,5 @@ $('.project').hover(
     $(this).find("h5").hide().addClass('inactive').removeClass('absolute')
   }
 )
+
+setInterval((function () { $('#developer').fadeIn(2500).fadeOut(1000) }), 1000);
