@@ -176,6 +176,7 @@ hr {
 .project{
     margin-bottom: 20px;
     position: relative;
+    color: #181818;
 }
 
 .project>a, .project>h5, span{
@@ -183,7 +184,7 @@ hr {
 }
 .absolute{
     position: absolute;
-    background-color: #d9a618;
+    background-color: #181818;
     font-weight: bold;
     z-index: 1;
     padding: 0px 10px 10px 10px;
@@ -197,10 +198,14 @@ hr {
 }
 .projects:hover .projects__absolute{
     display: none;
+    color: #d9a618;
 }
 
 .projects:hover{
-    background-color: #d9a618;
+    background-color: #181818;
+}
+.projects:hover a, .project>h5, span{
+    color: #d9a618;
 }
 
 /* contact */
