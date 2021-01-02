@@ -227,7 +227,7 @@ hr {
     text-align: center;
     z-index: 1;
 }
-.contact:hover:hover .contact__absolute{
+.contact:hover .contact__absolute{
     display: none;
     transition: 1s ease-in-out;
 }
