@@ -257,6 +257,9 @@ hr {
     .two:hover ~ hr {
         width: 30%;
     }
+    .about__text {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 434px) {
