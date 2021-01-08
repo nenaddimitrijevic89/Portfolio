@@ -246,7 +246,7 @@ hr {
         padding-right: 25px;
     }
     .navbar ul{
-        font-size: 25px;
+        font-size: 22px;
     }
     .main, .about, .projects{
         text-align: center;
@@ -264,7 +264,7 @@ hr {
 
 @media only screen and (max-width: 434px) {
     .navbar ul{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .main__profile_img{
@@ -281,7 +281,7 @@ hr {
 
 @media only screen and (max-width: 363px) {
     .navbar ul{
-        font-size: 16px;
+        font-size: 15px;
     }
     #menu, #menuList{
         padding-left: 20px;
