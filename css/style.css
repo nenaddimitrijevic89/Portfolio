@@ -4,9 +4,10 @@ body {
     font-family: 'Turret Road', cursive;
 }
 
+
 /* navbar */
 
-nav{
+nav {
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -23,7 +24,7 @@ nav{
     margin-bottom: 0px;
 }
 
-.navbar ul:hover{
+.navbar ul:hover {
     cursor: pointer;
 }
 
@@ -35,16 +36,16 @@ nav{
     padding-right: 15px;
 }
 
-li>a:hover{
+li>a:hover {
     text-decoration: none;
     color: white;
 }
 
-li>a{
+li>a {
     color: white;
 }
 
-#menu>i{
+#menu>i {
     overflow: hidden;
     transition-duration: 1s;
     transition-property: transform;
@@ -65,20 +66,21 @@ li>a{
     visibility: hidden;
 }
 
+
 /* main */
 
 .main {
     color: white;
     margin-bottom: 20px;
 }
-.bold{
+
+.bold {
     font-weight: bold;
     color: #d9a618;
 }
 
 .main__profile {
     padding-top: 70px;
-   
 }
 
 .main__profile_img {
@@ -88,15 +90,15 @@ li>a{
     object-fit: cover;
 }
 
-.logo{
+.logo {
     margin: 15px 0px;
 }
 
-.logo img{
+.logo img {
     width: 50px;
 }
 
-.circle{
+.circle {
     width: 90px;
     height: 90px;
     align-items: center;
@@ -108,53 +110,56 @@ li>a{
     border: 5px solid #d9a618;
 }
 
-.tech{
+.tech {
     padding-top: 70px;
     align-items: center;
     text-align: center;
 }
 
+
 /* about */
 
-.about{
+.about {
     padding: 50px 0px;
     color: #181818;
     position: relative;
 }
-.about__absolute{
+
+.about__absolute {
     position: absolute;
     color: white;
     text-align: center;
     z-index: 1;
 }
-.about:hover .about__absolute{
+
+.about:hover .about__absolute {
     display: none;
     transition: 1s ease-in-out;
 }
 
-.about:hover{
+.about:hover {
     background-color: #181818;
     transition: 1s ease-in-out;
     z-index: 2;
     color: #d9a618;
 }
 
-.one:hover ~ hr{
+.one:hover~hr {
     visibility: visible;
 }
 
-.two:hover ~ hr {
+.two:hover~hr {
     margin-left: 28.5%;
     width: 31%;
     visibility: visible;
 }
-  
-.three:hover ~ hr {
+
+.three:hover~hr {
     margin-left: 66%;
     width: 30%;
     visibility: visible;
 }
-  
+
 hr {
     height: .25rem;
     width: 22%;
@@ -165,24 +170,28 @@ hr {
     transition: .3s ease-in-out;
 }
 
+
 /* projects */
 
-.projects{
+.projects {
     padding: 50px 0px;
     color: #181818;
     position: relative;
 }
 
-.project{
+.project {
     margin-bottom: 20px;
     position: relative;
     color: #181818;
 }
 
-.project>a, .project>h5, span{
+.project>a,
+.project>h5,
+span {
     color: #181818;
 }
-.absolute{
+
+.absolute {
     position: absolute;
     background-color: #181818;
     font-weight: bold;
@@ -190,106 +199,114 @@ hr {
     padding: 0px 10px 10px 10px;
 }
 
-.projects__absolute{
+.projects__absolute {
     position: absolute;
     color: white;
     text-align: center;
     z-index: 1;
 }
-.projects:hover .projects__absolute{
+
+.projects:hover .projects__absolute {
     display: none;
     color: #d9a618;
 }
 
-.projects:hover{
+.projects:hover {
     background-color: #181818;
 }
-.projects:hover a, .project>h5, span{
+
+.projects:hover a,
+.project>h5,
+span {
     color: #d9a618;
 }
 
+
 /* contact */
 
-.contact{
+.contact {
     padding: 50px 0px;
     color: #181818;
     position: relative;
     text-align: center;
 }
 
-.contact a{
+.contact a {
     color: #181818;
 }
 
-.contact__absolute{
+.contact__absolute {
     position: absolute;
     color: white;
     text-align: center;
     z-index: 1;
 }
-.contact:hover .contact__absolute{
+
+.contact:hover .contact__absolute {
     display: none;
     transition: 1s ease-in-out;
 }
 
-.contact:hover, .contact:hover a{
+.contact:hover,
+.contact:hover a {
     background-color: #181818;
     transition: 1s ease-in-out;
     z-index: 2;
     color: #d9a618;
 }
 
-
-
 @media only screen and (max-width: 575px) {
-    .navbar{
+    .navbar {
         padding-right: 25px;
     }
-    .navbar ul{
-        font-size: 22px;
+    .navbar ul {
+        font-size: 24px;
     }
-    .main, .about, .projects{
+    .main,
+    .about,
+    .projects {
         text-align: center;
     }
-    hr{
+    hr {
         width: 21%;
     }
-    .two:hover ~ hr {
+    .two:hover~hr {
         width: 30%;
     }
     .about__text {
-        font-size: 28px;
+        font-size: 27px;
     }
 }
 
 @media only screen and (max-width: 434px) {
+
     .navbar ul{
         font-size: 16px;
     }
-
-    .main__profile_img{
+    .main__profile_img {
         width: 270px;
         height: 270px;
     }
-    hr{
+    hr {
         width: 20%;
     }
-    .two:hover ~ hr {
+    .two:hover~hr {
         width: 29%;
     }
 }
 
 @media only screen and (max-width: 363px) {
-    .navbar ul{
-        font-size: 15px;
+    .navbar ul {
+        font-size: 16px;
     }
-    #menu, #menuList{
+    #menu,
+    #menuList {
         padding-left: 20px;
     }
-    .two:hover ~ hr {
+    .two:hover~hr {
         width: 28.5%;
     }
-    .three:hover ~ hr {
+    .three:hover~hr {
         width: 28%;
     }
 }
